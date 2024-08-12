@@ -1,0 +1,98 @@
+/* Setup foundation for styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Page headlines */
+.title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Directory div styles */
+.directory {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Directory links */
+.directory a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Directory link mouse hover  */
+.directory a:hover {
+    text-decoration: underline;
+}
+
+/* Form for registration */
+.registration-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form label */
+.registration-form label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Form input boxes */
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+/* Form submit button */
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Form submit button hover */
+.registration-form button:hover {
+    background: #0056b3;
+}
+
+/* Admin page user-list */
+.admin-user-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* User list li */
+.admin-user-list li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
